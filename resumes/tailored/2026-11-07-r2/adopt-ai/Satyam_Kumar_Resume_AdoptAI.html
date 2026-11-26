@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Satyam Kumar - Resume</title>
+<style>
+@page{size:A4;margin:11mm 12mm}
+body{font-family:Helvetica,Arial,sans-serif;font-size:9.6pt;line-height:1.28;color:#111;margin:0}
+h1{font-size:18pt;margin:0 0 2px;letter-spacing:.3px}
+.contact{font-size:8.8pt;color:#333;margin-bottom:6px}
+.contact a{color:#333;text-decoration:none}
+h2{font-size:10.2pt;text-transform:uppercase;letter-spacing:.6px;border-bottom:1px solid #222;margin:8px 0 3px;padding-bottom:1px}
+.row{display:flex;justify-content:space-between;align-items:baseline}
+.t{font-weight:bold}.sub{font-style:italic;color:#333}.r{color:#333;font-size:9pt;white-space:nowrap}
+ul{margin:1px 0 4px 14px;padding:0}li{margin:0 0 1.5px}
+a{color:#0b4a8b;text-decoration:none}
+.skills div{margin:0 0 1.5px}
+</style></head><body>
+<h1>Satyam Kumar</h1>
+<div class="contact">+91 7992401933 &middot; <a href="mailto:satyamkr6460@gmail.com">satyamkr6460@gmail.com</a> &middot; <a href="https://www.linkedin.com/in/satyambitm/">linkedin.com/in/satyambitm</a> &middot; <a href="https://github.com/satyambitm">github.com/satyambitm</a></div>
+
+<h2>Education</h2>
+<div class="row"><span class="t">Birla Institute of Technology, Mesra</span><span class="r">Sept 2023 &ndash; May 2027</span></div>
+<div class="row"><span class="sub">Bachelor of Technology in Artificial Intelligence &amp; Machine Learning</span><span class="r">CGPA: 8/10</span></div>
+
+<h2>Experience</h2>
+<div class="row"><span class="t">The Linux Foundation &mdash; <a href="https://mentorship.lfx.linuxfoundation.org/project/26086dfb-1c88-487c-a2de-e11cfc857c1a">LFX Mentee</a> (Knative)</span><span class="r">June 2026 &ndash; Aug 2026</span></div>
+<ul>
+<li>Integrated AI-driven deployment pipelines into Knative by extending the MCP toolchain, connecting programmatic LLM agents with cloud-native infrastructure.</li>
+<li>Submitted a Go fix for Knative's MCP server, registering the missing <code>func://help/run</code> resource to resolve agent-facing resource errors; added regression tests validating help-resource registration across standard and read-only instructions. <a href="https://github.com/knative/func/pull/4087">[PR]</a></li>
+</ul>
+<div class="row"><span class="t">Dipy | Diffusion Imaging in Python &mdash; Open Source Software Development Engineer</span><span class="r">Feb 2026 &ndash; Present &middot; Remote</span></div>
+<div class="sub">Python, NumPy, CI/CD</div>
+<ul>
+<li>Resolved bugs across diffusion imaging modules, fixing edge cases in data processing pipelines and improving numerical stability in reconstruction algorithms across 29 PRs (17 merged). <a href="https://github.com/dipy/dipy/pulls?q=is%3Apr+author%3Asatyambitm">[PRs]</a></li>
+<li>Optimized CI/CD pipelines via GitHub Actions, expanding unit and integration test coverage by 15% and ensuring cross-platform build reliability for a widely used scientific computing library.</li>
+</ul>
+
+<h2>Projects</h2>
+<div class="row"><span class="t">loveable-v01 &mdash; Lovable-Style App Builder</span><span class="r">TypeScript, React, Vite, Express, Gemini &middot; <a href="https://github.com/satyambitm/loveable-v01">GitHub</a></span></div>
+<ul>
+<li>Built the agent backend of a Lovable-style app builder: a Gemini tool-calling loop in TypeScript (Express) with Read, Write, Edit, Ls, Grep and Find file tools that edits a live React project.</li>
+<li>Wired it to a chat UI with a project file viewer and a live preview of the running React app, plus a health endpoint and project snapshot API.</li>
+</ul>
+<div class="row"><span class="t">Cogent &mdash; Terminal-Based Autonomous Coding Agent</span><span class="r">TypeScript, Node.js, LLMs &middot; <a href="https://github.com/satyambitm/cogent">GitHub</a></span></div>
+<ul>
+<li>Developed a terminal-based coding agent integrating Gemini and Groq models with filesystem and shell tools through a unified streaming interface.</li>
+<li>Designed an autonomous read-act loop with context compaction, session persistence, and provider-agnostic tool execution for interactive and batch workflows.</li>
+</ul>
+<div class="row"><span class="t">Memory Card Voice Bot &mdash; Real-Time Voice Agent for a Spoken Memory Game</span><span class="r">Python, Pipecat, FastAPI, WebRTC, Redis, PostgreSQL, Next.js</span></div>
+<ul>
+<li>Built a real-time voice agent on Pipecat (Deepgram STT/TTS + Groq LLM) with a deterministic Python game engine that judges every answer in code, keeping word sequences fully out of the model's context.</li>
+<li>Orchestrated dual Host/Coach agents over one voice channel with Redis-backed TTS and LLM caching, snapshot-based mid-game reconnects, and prompt-injection guardrails wrapping all game events as untrusted data.</li>
+</ul>
+<div class="row"><span class="t">Gsoc-Espionage &mdash; GitHub PR Analytics Dashboard for GSoC Data</span><span class="r">React.js, TypeScript, Vite, GitHub REST API</span></div>
+<ul>
+<li>Built a GitHub PR analytics dashboard used by 2.1k+ users, providing merge-rate and contributor insights with branch filtering, custom time ranges, and CSV/JSON export support.</li>
+</ul>
+
+<h2>Technical Skills</h2>
+<div class="skills">
+<div><b>Languages:</b> Python, SQL, C++, C, JavaScript, TypeScript</div>
+<div><b>Data &amp; AI:</b> Pandas, NumPy, Machine Learning, LLMs, Data Analytics</div>
+<div><b>Backend &amp; APIs:</b> Node.js, FastAPI, REST APIs, PostgreSQL, Redis, WebSockets</div>
+<div><b>Cloud &amp; Tools:</b> AWS, Docker, Kubernetes, Git, GitHub, GitHub Actions, CI/CD, Postman</div>
+</div>
+
+<h2>Achievements</h2>
+<ul>
+<li>Ranked 129 out of 34,000+ in ICPC (International Collegiate Programming Contest).</li>
+<li>National Finalist at SEBI TechSprint (Securities and Exchange Board of India).</li>
+<li>Technical Lead for <a href="https://pantheon25.com/">Pantheon'25</a>, managing infrastructure for 4000+ visitors and spearheading the HackQuest'25 hackathon for 1200+ participants.</li>
+<li>Core Developer for <a href="https://bitotsav.bitmesra.ac.in/">BITOTSAV</a>, building a QR-based ticketing system for 5000+ attendees and boosting engagement by 40%.</li>
+<li>2nd place for a Stocks Portfolio Manager solution in HACKATRON at BIT Sindri. <a href="https://www.linkedin.com/posts/vaibhav-anand-singh-412604299_teamosiris-hackathon-hackatron-ugcPost-7357728905987788800-T3L3">[Post]</a></li>
+<li>1st place in CICADA-CTF; won the no-monitor contest in Blind Coding.</li>
+</ul>
+</body></html>
